@@ -1,0 +1,155 @@
+.mainBg{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #D5995F;
+}
+
+.backImg{
+    background-image: url('https://res.cloudinary.com/dhxs4lpz5/image/upload/v1709375422/tearfund_assets/junbv6fr472pj7nzyzww.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.donatCard{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    margin-right: 50px;
+    padding: 12px 22px;
+}
+
+.innerCard{
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    margin-top: 0.6rem;
+    color: #fff;
+}
+
+.dash{
+    background-color: #008caa;
+    width: 3rem;
+    height: 0.25rem;
+}
+
+.mt-0{
+    margin-top: 0px;
+}
+
+.mb-0{
+    margin-bottom: 0px;
+}
+
+.FSM-bold{
+    font-family: 'FSMeWeb_Bold';
+}
+
+.FSM-Regular{
+    font-family: 'FSMeWeb_Regular';
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.ma-r-5{
+    margin-right: 0.5rem;
+}
+
+.ma-l-5{
+    margin-left: 0.5rem;
+}
+
+.bg-78p-col{
+    background-color: #6f3f87;
+}
+
+.bg-22p-col{
+    background-color: #173145;
+}
+
+.btn-sec{
+    display: flex;
+}
+
+.container {
+    display: flex;
+  }
+
+  .half {
+    flex: 1;
+    padding-top: 13px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  .arrow-78p{
+    border-bottom: 10px solid #6f3f87;
+  }
+
+  .arrow-22p{
+    border-bottom: 10px solid #173145;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+
+/* font */
+@font-face {
+    font-family: FSMeWeb_Regular;
+    src: url(https://res.cloudinary.com/tearfund/raw/upload/v1664533753/General/Fonts/FSMeWeb-Regular_rcfffc.woff2);
+}
+
+@font-face {
+    font-family: FSMeWeb_Bold;
+    src: url(https://res.cloudinary.com/tearfund/raw/upload/v1664533752/General/Fonts/FSMeWeb-Bold_ce2eoa.woff2);
+}
+
+@media only screen and (max-width: 767px) {
+
+    .backImg {
+        background-image: url(https://res.cloudinary.com/dhxs4lpz5/image/upload/v1709375414/tearfund_assets/borzs28zfaekmuoaeyup.png);
+        background-position: top;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+
+    .dotcardmo{
+        position: absolute;
+        bottom: 0;
+        width: auto;
+        max-width: fit-content;
+        margin: 25px;
+    }
+  }
+
+  /* .bcc{
+    background: linear-gradient(0deg, rgba(213,153,95,1) 0%, rgba(213,153,95,1) 10%, rgba(213,153,95,0) 100%);
+    flex: 1;
+    height: 9.25rem;
+
+  } */

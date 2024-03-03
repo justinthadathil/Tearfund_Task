@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tearfund - Frontend Task</title>
+  <meta name="description" content="Frontend Developer Task by Tearfund">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body class="mainBg backImg FSM-Regular">
+  <!-- <div class="bcc"></div> -->
+  <div class="donatCard dotcardmo">
+    <h2>Where your money goes</h2>
+    <div class="bg-blue h-4 mt-16 w-48 lg:h-6 lg:w-64 dash"></div>
+    <p>We’re committed to making sure your donation has the biggest possible impact for those in greatest need.</p>
+    <p class="FSM-bold">Select the numbers below to see how every pound you donate is used.</p>
+    <div class="btn-sec">
+      <button class="button bg-78p-col ma-r-5 FSM-bold" value="78p" onclick="showOutput(this.value)">78p</button>
+      <button class="button bg-22p-col ma-l-5 FSM-bold" value="22p" onclick="showOutput(this.value)">22p</button>
+    </div>
+    <div class="container">
+      <div class="half">
+        <div id='arrowLeft' class="arrow arrow-78p"></div>
+      </div>
+      <div class="half">
+        <div id='arrowRight' class="arrow arrow-22p"></div>
+      </div>
+    </div>
+    <div id = 'detailCard'class="innerCard">
+      <p id="header" class="FSM-bold mt-0 mb-0"></p>
+      <p id="subHeader" class="FSM-Regular mb-0"></p>
+    </div>
+  </div>
+
+</body>
+</html>

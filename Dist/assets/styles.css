@@ -21,7 +21,7 @@
     max-width: 400px;
     width: 100%;
     margin-right: 50px;
-    padding: 12px 22px;
+    padding: 12px 16px;
 }
 
 .innerCard{
@@ -84,26 +84,27 @@
 
 .btn-sec{
     display: flex;
+    margin-bottom: -8px;
 }
 
 .container {
     display: flex;
-  }
+}
 
-  .half {
+.half {
     flex: 1;
     padding-top: 13px;
     justify-content: center;
     display: flex;
-  }
+}
 
-  .arrow {
+.arrow {
     position: absolute;
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-  }
+}
 
   .arrow-78p{
     border-bottom: 10px solid #6f3f87;
@@ -144,6 +145,22 @@
         width: auto;
         max-width: fit-content;
         margin: 18px;
+    }
+
+    .mob-ft-1{
+        font-size: 1rem;
+    }
+
+    .mob-ft-09{
+        font-size: 0.9rem;
+    }
+
+    .mob-ft-15{
+        font-size: 1.5rem;
+    }
+
+    .h1-mar{
+        margin: 0.4rem 0rem 0.8rem;
     }
   }
 

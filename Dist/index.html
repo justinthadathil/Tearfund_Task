@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tearfund - Frontend Task</title>
-  <meta name="description" content="Frontend Developer Task by Tearfund">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script defer src="assets/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tearfund - Frontend Task</title>
+    <meta name="description" content="Frontend Developer Task by Tearfund">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script defer src="assets/script.js"></script>
 </head>
-<body class="mainBg backImg FSM-Regular">
-  <!-- <div class="bcc"></div> -->
-  <div class="donatCard dotcardmo">
-    <h2 class="mob-ft-15 h1-mar">Where your money goes</h2>
-    <div class="bg-blue h-4 mt-16 w-48 lg:h-6 lg:w-64 dash"></div>
-    <p class="mob-ft-09">We’re committed to making sure your donation has the biggest possible impact for those in greatest need.</p>
-    <p class="FSM-bold mob-ft-09">Select the numbers below to see how every pound you donate is used.</p>
-    <div class="btn-sec">
-      <button class="button bg-78p-col ma-r-5 FSM-bold mob-ft-09" value="78p" onclick="showOutput(this.value)">78p</button>
-      <button class="button bg-22p-col ma-l-5 FSM-bold mob-ft-09" value="22p" onclick="showOutput(this.value)">22p</button>
-    </div>
+<body>
     <div class="container">
-      <div class="half">
-        <div id='arrowLeft' class="arrow arrow-78p"></div>
-      </div>
-      <div class="half">
-        <div id='arrowRight' class="arrow arrow-22p"></div>
-      </div>
+        <img class="background-desktop" src="https://res.cloudinary.com/dhxs4lpz5/image/upload/v1709375422/tearfund_assets/junbv6fr472pj7nzyzww.png" alt="Desktop Background">
+        <img class="background-mobile" src="https://res.cloudinary.com/dhxs4lpz5/image/upload/v1709375414/tearfund_assets/borzs28zfaekmuoaeyup.png" alt="Mobile Background">
+        <div class="light-back"></div>
+        <div class="donate-card">
+            <h2>Where your money goes</h2>
+            <div class="dash"></div>
+            <p class="FSM-Regular">We’re committed to making sure your donation has the biggest possible impact for those in greatest need.</p>
+            <p class="FSM-bold">Select the numbers below to see how every pound you donate is used.</p>
+            <div class="btn-sec">
+                <button class="button bg-78p-col ma-r-5 FSM-bold" value="78p" onclick="showOutput(this.value)">78p</button>
+                <button class="button bg-22p-col ma-l-5 FSM-bold" value="22p" onclick="showOutput(this.value)">22p</button>
+            </div>
+            <div class="arrow-row">
+                <div class="half">
+                    <div id='arrowLeft' class="arrow arrow-78p"></div>
+                </div>
+                <div class="half">
+                    <div id='arrowRight' class="arrow arrow-22p"></div>
+                </div>
+            </div>
+            <div id='detailCard'class="innerCard">
+              <p id="header" class="FSM-bold mt-0 mb-0"></p>
+              <p id="subHeader" class="FSM-Regular mb-0"></p>
+            </div>
+        </div>
     </div>
-    <div id = 'detailCard'class="innerCard">
-      <p id="header" class="FSM-bold mt-0 mb-0 mob-ft-09"></p>
-      <p id="subHeader" class="FSM-Regular mb-0 mob-ft-09"></p>
-    </div>
-  </div>
-
 </body>
 </html>
